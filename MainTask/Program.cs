@@ -22,3 +22,24 @@ string[] FilterArray(string[] arr)
     }
     return array;
 }
+
+string[] arr = { "Hello", "World", "2", "8", ":-)" };
+{
+
+        
+        string[] filteredArray = FilterArray(arr);
+
+        
+        Console.WriteLine("Исходный массив:");
+        foreach (string str in arr)
+        {
+            Console.Write(str + " ");
+        }
+        Console.WriteLine();
+        
+        Console.WriteLine("Массив строк длиной не более 3 символов:");
+        foreach (string str in filteredArray)
+        {
+            Console.Write(str + " ");
+        }
+    }
