@@ -1,5 +1,4 @@
 ﻿
-using System.Xml.XPath;
 
 string[] FilterArray(string[] arr)
 {
